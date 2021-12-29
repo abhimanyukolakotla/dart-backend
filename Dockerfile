@@ -5,4 +5,4 @@ COPY pubspec.yaml pubspec.yaml
 COPY bin bin
 RUN  pub get
 
-CMD ["sudo", "dart", "bin/main.dart"]
+CMD ["dart", "bin/main.dart"]
